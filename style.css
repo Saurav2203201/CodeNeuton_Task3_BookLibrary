@@ -1,0 +1,71 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+form, #search {
+  margin-top: 20px;
+}
+
+input, select, button {
+  font-size: 16px;
+}
+
+input:focus, select:focus {
+  border-color: #198754 !important;
+  box-shadow: 0 0 5px rgba(25, 135, 84, 0.4) !important;
+}
+
+#book-list .list-group-item {
+  background-color: #f9f9f9;
+  border: none;
+  border-left: 4px solid #198754;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+#book-list .list-group-item span {
+  flex-grow: 1;
+  font-weight: 500;
+  color: #34495e;
+}
+
+#book-list .list-group-item button {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+#book-list .list-group-item button:hover {
+  background: #c82333;
+}
